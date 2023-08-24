@@ -31,5 +31,5 @@ jobs:
       # Now we run our tests
       - name: Test with pytest
         run: |
-          pipenv run pytest codebases/simple_server/tests/
+          pipenv run pytest ~CODE/DevOPs-CICD/cloud-deployment/codebases/simple_server/tests
           pipenv run pytest --collect-only
